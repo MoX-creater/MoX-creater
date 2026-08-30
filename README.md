@@ -52,13 +52,14 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 
 ## Featured Projects
 
-**[High-Concurrency Flash Sale Engine](https://github.com/MoX-creater/Flash-sale---concurrency)**
+**[High-Concurrency Flash Sale Engine](https://github.com/MoX-creater/Flash-Sale-Concurrency-App)**
 `Spring Boot` `Redis` `PostgreSQL` `RabbitMQ` `Docker`
 A backend system for flash sale scenarios, built to handle high request volume without overselling. Uses Redisson distributed locks for atomic inventory updates and an event-driven design with RabbitMQ to decouple request handling from database writes. Handled 10,000+ concurrent requests with sub-50ms latency and exactly-once order processing in load testing.
 
 **[Typing Speed Web App](https://github.com/MoX-creater/Typing-Speed-Website)**
-`MongoDB` `Express` `React` `Node.js`
-A typing test platform with real-time WPM and accuracy tracking, backed by a set of RESTful APIs for session management and scoring. Tuned the React rendering pipeline to keep input lag minimal during continuous typing, with consistent performance across 50-100 concurrent sessions in testing.
+`React` `Node.js` `Express` `Socket.io` `Firebase/Firestore` `Gemini API`
+
+A full-stack typing test platform with solo tests, live multiplayer race rooms, and AI-driven personalization. Real-time race sync built with Socket.io; per-user typing telemetry (WPM trends, accuracy by character class, error patterns) stored in Firestore and fed into a Gemini-powered pipeline that generates adaptive practice passages and post-session performance summaries. Includes auth, leaderboards, and friends system.
 
 **[P2P File Sharing App](https://github.com/MoX-creater/DropLink-P2P-file-sharing)**
 `React` `WebRTC` `Node.js` `Express` `WebSockets`
