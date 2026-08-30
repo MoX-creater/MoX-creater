@@ -54,6 +54,7 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 
 **[High-Concurrency Flash Sale Engine](https://github.com/MoX-creater/Flash-Sale-Concurrency-App)**
 `Spring Boot` `Redis` `PostgreSQL` `RabbitMQ` `Docker`
+
 A backend system for flash sale scenarios, built to handle high request volume without overselling. Uses Redisson distributed locks for atomic inventory updates and an event-driven design with RabbitMQ to decouple request handling from database writes. Handled 10,000+ concurrent requests with sub-50ms latency and exactly-once order processing in load testing.
 
 **[Typing Speed Web App](https://github.com/MoX-creater/Typing-Speed-Website)**
@@ -63,6 +64,7 @@ A full-stack typing test platform with solo tests, live multiplayer race rooms, 
 
 **[P2P File Sharing App](https://github.com/MoX-creater/DropLink-P2P-file-sharing)**
 `React` `WebRTC` `Node.js` `Express` `WebSockets`
+
 A peer-to-peer file transfer tool using WebRTC for direct browser-to-browser transfers, with a WebSocket signaling server to establish connections and STUN/ICE for NAT traversal. Achieved transfer speeds up to 2-8 MB/s under favorable local conditions.
 
 ---
