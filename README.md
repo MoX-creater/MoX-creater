@@ -50,25 +50,39 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 
 ## Featured Projects
 
-**[RAG-Powered Portfolio Chatbot](https://github.com/MoX-creater/Portfolio)**
+**[RAG-Powered Portfolio Chatbot](https://github.com/MoX-creater/Portfolio)** — [live demo](https://portfolio1-7zp.pages.dev)
 `Node.js` `Express` `React` `Google Gemini API` `Firebase/Firestore` `SSE`
 
-A retrieval-augmented generation chatbot embedded in this portfolio site, answering questions about my background and projects with responses grounded in a curated knowledge base rather than free-form generation. Chunks source docs, embeds them via the Gemini API, and retrieves by similarity search against Firestore at query time; responses stream to the client over Server-Sent Events. Includes a custom evaluation harness scoring answers on faithfulness, relevance, and correct refusal on out-of-scope questions, plus rate limiting and a CORS allowlist for production deployment.
+- Retrieval-augmented generation chatbot embedded in this portfolio site, grounding every answer in a curated knowledge base rather than free-form generation
+- Chunks source docs, embeds them via the Gemini API, and retrieves by similarity search against Firestore at query time
+- Streams responses to the client over Server-Sent Events
+- Custom evaluation harness scoring answers on faithfulness, relevance, and correct refusal on out-of-scope questions
+- Hardened for production with rate limiting and a CORS allowlist
 
 **[High-Concurrency Flash Sale Engine](https://github.com/MoX-creater/Flash-Sale-Concurrency-App)**
 `Spring Boot` `Redis` `PostgreSQL` `RabbitMQ` `Docker`
 
-A backend system for flash sale scenarios, built to handle high request volume without overselling. Uses Redisson distributed locks for atomic inventory updates and an event-driven design with RabbitMQ to decouple request handling from database writes. Handled 10,000+ concurrent requests with sub-50ms latency and exactly-once order processing in load testing.
+- Backend system for flash sale scenarios, built to handle high request volume without overselling
+- Redisson distributed locks for atomic inventory updates
+- Event-driven design with RabbitMQ decoupling request handling from database writes
+- Handled 10,000+ concurrent requests with sub-50ms latency and exactly-once order processing in load testing
 
 **[Typing Speed Web App](https://github.com/MoX-creater/Typing-Speed-Website)**
 `React` `Node.js` `Express` `Socket.io` `Firebase/Firestore` `Gemini API`
 
-A full-stack typing test platform with solo tests, live multiplayer race rooms, and AI-driven personalization. Real-time race sync built with Socket.io; per-user typing telemetry (WPM trends, accuracy by character class, error patterns) stored in Firestore and fed into a Gemini-powered pipeline that generates adaptive practice passages and post-session performance summaries. Includes auth, leaderboards, and friends system.
+- Full-stack typing test platform with solo tests, live multiplayer race rooms, and AI-driven personalization
+- Real-time race sync built with Socket.io
+- Per-user typing telemetry (WPM trends, accuracy by character class, error patterns) stored in Firestore
+- Gemini-powered pipeline generating adaptive practice passages and post-session performance summaries
+- Includes auth, leaderboards, and friends system
 
 **[P2P File Sharing App](https://github.com/MoX-creater/DropLink-P2P-file-sharing)**
 `React` `WebRTC` `Node.js` `Express` `WebSockets`
 
-A peer-to-peer file transfer tool using WebRTC for direct browser-to-browser transfers, with a WebSocket signaling server to establish connections and STUN/ICE for NAT traversal. Achieved transfer speeds up to 2-8 MB/s under favorable local conditions.
+- Peer-to-peer file transfer tool using WebRTC for direct browser-to-browser transfers
+- WebSocket signaling server to establish connections
+- STUN/ICE for NAT traversal
+- Achieved transfer speeds up to 2-8 MB/s under favorable local conditions
 
 ---
 
