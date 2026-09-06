@@ -1,12 +1,11 @@
 <h1 align="center">Mohit</h1>
-
 <p align="center">
-  Backend & Systems-Focused Developer — Undergraduate, Class of 2027
+Backend & Systems-Focused Developer — Undergraduate, Class of 2027
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mohit-mahanta-027778290/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:mohitk3001@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/mohit-mahanta-027778290/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="mailto:mohitk3001@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
 ---
@@ -20,23 +19,22 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 ## Technical Stack
 
 **Languages & Frameworks**
-
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
 </p>
 
 **Infrastructure & Tools**
-
 <p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white">
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
 ---
@@ -44,13 +42,18 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 ## GitHub Statistics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MoX-creater&show_icons=true&theme=default" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoX-creater&layout=compact" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=MoX-creater&show_icons=true&theme=default" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MoX-creater&layout=compact" />
 </p>
 
 ---
 
 ## Featured Projects
+
+**[RAG-Powered Portfolio Chatbot](https://github.com/MoX-creater/Portfolio)** — [live demo](https://portfolio1-7zp.pages.dev)
+`Node.js` `Express` `React` `Google Gemini API` `Firebase/Firestore` `SSE`
+
+A retrieval-augmented generation chatbot embedded in this portfolio site, answering questions about my background and projects with responses grounded in a curated knowledge base rather than free-form generation. Chunks source docs, embeds them via the Gemini API, and retrieves by similarity search against Firestore at query time; responses stream to the client over Server-Sent Events. Includes a custom evaluation harness scoring answers on faithfulness, relevance, and correct refusal on out-of-scope questions, plus rate limiting and a CORS allowlist for production deployment.
 
 **[High-Concurrency Flash Sale Engine](https://github.com/MoX-creater/Flash-Sale-Concurrency-App)**
 `Spring Boot` `Redis` `PostgreSQL` `RabbitMQ` `Docker`
