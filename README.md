@@ -50,7 +50,7 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 
 ## Featured Projects
 
-**[RAG-Powered Portfolio Chatbot](https://github.com/MoX-creater/Portfolio)** — [live demo](https://portfolio1-7zp.pages.dev)
+**[RAG-Powered Portfolio Chatbot](https://github.com/MoX-creater/Portfolio)**
 `Node.js` `Express` `React` `Google Gemini API` `Firebase/Firestore` `SSE`
 
 A retrieval-augmented generation chatbot embedded in this portfolio site, answering questions about my background and projects with responses grounded in a curated knowledge base rather than free-form generation. Chunks source docs, embeds them via the Gemini API, and retrieves by similarity search against Firestore at query time; responses stream to the client over Server-Sent Events. Includes a custom evaluation harness scoring answers on faithfulness, relevance, and correct refusal on out-of-scope questions, plus rate limiting and a CORS allowlist for production deployment.
