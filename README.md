@@ -12,7 +12,7 @@ Backend & Systems-Focused Developer — Undergraduate, Class of 2027
 
 ## About
 
-Fourth-year undergraduate with a focus on backend development and systems-level engineering. Experienced across the full stack, with particular interest in distributed systems, caching, and message-driven architectures.
+Fourth-year undergraduate with a focus on backend development and systems-level engineering. Experienced across the full stack, with particular interest in distributed systems, caching, message-driven architectures, and data engineering.
 
 ---
 
@@ -26,6 +26,13 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
 <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white">
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+</p>
+
+**Data & Analytics**
+<p>
+<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white">
+<img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white">
 </p>
 
 **Infrastructure & Tools**
@@ -34,6 +41,7 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
 <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white">
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
@@ -49,6 +57,15 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 ---
 
 ## Featured Projects
+
+**[Olist E-Commerce Analytics Pipeline](https://github.com/MoX-creater/REPO-NAME-HERE)**
+`Node.js` `PostgreSQL` `dbt` `Express` `React` `Recharts` `GitHub Actions`
+
+- End-to-end data engineering pipeline built on the Olist Brazilian e-commerce dataset
+- Ingestion layer in Node.js loads raw CSVs into a Postgres raw schema
+- dbt models transform data through staging → intermediate → marts layers, with docs published as a static site
+- CI-driven transformation: dbt runs via GitHub Actions against hosted Postgres on every change
+- Custom analytics dashboard (Express API + React/Recharts) built after pivoting off Metabase due to free-tier hosting RAM limits
 
 **[RAG-Powered Portfolio Chatbot](https://github.com/MoX-creater/Portfolio)**
 `Node.js` `Express` `React` `Google Gemini API` `Firebase/Firestore` `SSE`
