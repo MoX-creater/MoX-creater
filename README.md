@@ -58,7 +58,7 @@ Fourth-year undergraduate with a focus on backend development and systems-level 
 
 ## Featured Projects
 
-**[Olist E-Commerce Analytics Pipeline](https://github.com/MoX-creater/REPO-NAME-HERE)**
+**[Olist E-Commerce Analytics Pipeline](https://github.com/MoX-creater/Olist-E-commerce-Analytics-dbt)**
 `Node.js` `PostgreSQL` `dbt` `Express` `React` `Recharts` `GitHub Actions`
 
 - End-to-end data engineering pipeline built on the Olist Brazilian e-commerce dataset
